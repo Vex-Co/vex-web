@@ -183,9 +183,29 @@ function App() {
           </div>
 
           <div className='text-center max-sm:text-3xl text-5xl font-bold my-14'>Templates</div>
-          <div className='grid justify-center bg-blue-600'>
-            <div className='bg-red-500 w-fit  flex justify-center items-center'>
-              <img src={template1} className='w-fit mt-5'/>h
+          <div className='grid sm:space-y-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 justify-center'>
+            <div className='w-fit mt-5'>
+              <img src={template1} className='w-full'/>
+            </div>
+            <div className='w-fit'>
+              <img src={template2} className='w-full'/>
+            </div>
+            <div className='w-fit'>
+              <img src={template3} className='w-full'/>
+            </div>
+
+            <div className='w-fit mt-5'>
+              <img src={template1} className='w-full'/>
+            </div>
+            <div className='flex justify-center 2xl:col-span-2 '>
+              <div className='w-fit'>
+                <img src={template2} className='w-full'/>
+              </div>
+            </div>
+            <div className='flex justify-center 2xl:col-span-2 '>
+              <div className='w-fit'>
+                <img src={template3} className='w-full'/>
+              </div>
             </div>
           </div>
 
