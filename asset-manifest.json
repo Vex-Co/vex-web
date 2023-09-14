@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vex.com.pk/static/css/main.fe80cc6d.css",
+    "main.js": "/vex.com.pk/static/js/main.dc7ab605.js",
+    "static/media/3 guys photo.png": "/vex.com.pk/static/media/3 guys photo.7517b3f29c4f33836906.png",
+    "static/media/guyImage.png": "/vex.com.pk/static/media/guyImage.05c1b754773864daafa4.png",
+    "static/media/thumb guy.png": "/vex.com.pk/static/media/thumb guy.c3ea6c055dda3a1067f2.png",
+    "static/media/zafeer.png": "/vex.com.pk/static/media/zafeer.20805fb729e442b00459.png",
+    "static/media/Dom.png": "/vex.com.pk/static/media/Dom.0945cb7f7215c33c9b15.png",
+    "static/media/zaheer.png": "/vex.com.pk/static/media/zaheer.190042549b401fdd22fd.png",
+    "static/media/target image.png": "/vex.com.pk/static/media/target image.402a88edf31d1e84bea2.png",
+    "static/media/template card (1).png": "/vex.com.pk/static/media/template card (1).aabcad80315300a0789d.png",
+    "static/media/template card (3).png": "/vex.com.pk/static/media/template card (3).35afec82db8f735637c6.png",
+    "static/media/template card (2).png": "/vex.com.pk/static/media/template card (2).3fe24481bf449f9c9707.png",
+    "index.html": "/vex.com.pk/index.html",
+    "main.fe80cc6d.css.map": "/vex.com.pk/static/css/main.fe80cc6d.css.map",
+    "main.dc7ab605.js.map": "/vex.com.pk/static/js/main.dc7ab605.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe80cc6d.css",
+    "static/js/main.dc7ab605.js"
+  ]
+}
