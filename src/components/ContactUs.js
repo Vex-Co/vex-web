@@ -1,5 +1,6 @@
 import React from "react"
 import Email from '../images/pic/Email.png' 
+import whiteEnvelope from '../images/pic/whiteEnvelope.png' 
 import Dom from '../images/pic/Dom.png' 
 import threeD from '../images/pic/thumb guy.png' 
 import blackLeftCloud from '../images/pic/black left cloud.png' 
@@ -44,10 +45,16 @@ const ContactUs = (props) => {
                   <div className='h-[2px] w-full bg-white mt-1 rounded-full'></div>
                 </div>
                 <div className='lg:flex lg:justify-center'>
-                  <button className='btn py-3 w-full lg:py-5 lg:text-2xl lg:px-14 lg:w-fit'>
+                  <button className='btn py-3 w-full lg:py-5 lg:text-2xl lg:px-14 lg:w-fit whiteHover'>
                     <div className='flex sm:items-center'>
                       <img src={Email} className='mr-3 max-sm:w-5 sm:w-9'/>Send
                     </div>
+                    {/* <div className="hover:visible hidden"> 
+                      <div className='flex sm:items-center'>
+                        <img src={whiteEnvelope} className='mr-3 max-sm:w-5 sm:w-9'/>Send
+                      </div>
+                    </div> */}
+                    
                   </button>
                 </div>
               </div>

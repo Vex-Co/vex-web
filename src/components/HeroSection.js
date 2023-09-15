@@ -15,7 +15,7 @@ const HeroSection = (props) => {
 
                     <p className='max-sm:text-clip max-sm:text-md sm:text-md lg:text-xl font-extralight xl:w-[80%] 2xl:w-[70%] w-[90%] leading-relaxed break-words'>Create Your Stunning Portfolio with VEX. Easy Templates, Hassle-Free Hosting.Discover Beautiful Templates and Seamless Hosting to Make Your Portfolio Shine.</p>
                   </div>
-                  <button className='btn hover:bg-black hover:border-white hover:border-[1px] hover:text-white'>
+                  <button className='btn hover:bg-[#ececec] hover:border-black hover:border-[1px] hover:text-black'>
                     <div className='flex sm:items-center'>
                       Get Started <img src={rightArrow} className='ml-3 max-sm:w-5 sm:w-9'/>
                     </div>

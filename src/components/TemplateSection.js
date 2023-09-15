@@ -8,7 +8,9 @@ const TemplateSection = (props) => {
     <div>
       <aside className='max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52'>
           <div className='flex justify-center'>
-            <button className='btn bg-black text-white px-10 font-medium'>Get a Custom Quote</button>
+            <a href="https://wa.link/xwmj6i" target="_blank">
+            <button className='btn bg-black text-white px-10 font-medium blackHover'>Get a Custom Quote</button>
+            </a>
           </div>
           
           <div className='text-white flex justify-center w-full h-fit'>
@@ -43,7 +45,7 @@ const TemplateSection = (props) => {
           </div>
 
           <div className='flex justify-center'>
-            <button className='btn bg-black text-white px-10 font-medium'>Show More</button>
+            <button className='btn bg-black text-white px-10 font-medium blackHover'>Show More</button>
           </div>
         </aside>
     </div>

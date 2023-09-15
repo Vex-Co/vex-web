@@ -30,7 +30,8 @@ const Footer = (props) => {
                   <img src={logoAbrev} className='w-52 lg:w-64 2xl:w-72'/>
                 </div>
                 <div className='flex justify-center space-x-1'>
-                  <img className='w-10 lg:w-12 2xl:w-16' src={whiteWhatsApp}/>
+
+                  <a href='https://wa.link/xwmj6i'><img className='w-10 lg:w-12 2xl:w-16' src={whiteWhatsApp}/></a>
                   <img className='w-10 lg:w-12 2xl:w-16' src={whiteLinkedIn}/>
                   <img className='w-10 lg:w-12 2xl:w-16' src={whiteInstagram}/>
                 </div>

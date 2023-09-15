@@ -6,4 +6,10 @@
     .btn{
         @apply bg-white max-sm:py-3 max-sm:px-3 max-sm:text-sm mt-10 sm:px-3 sm:py-2 lg:px-5 lg:py-3 flex justify-center items-center text-black sm:text-lg lg:text-lg font-bold border-0 rounded-full
     }
+    .whiteHover{
+        @apply hover:border-white hover:border-2 hover:text-white hover:bg-black
+    }
+    .blackHover{
+        @apply hover:border-black hover:border-2 hover:text-black hover:bg-white
+    }
 }

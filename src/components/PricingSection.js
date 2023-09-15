@@ -46,14 +46,16 @@ const PricingSection = (props) => {
                                 </div>
                                 <div className='flex space-x-3 text-xs items-center'>
                                     <img src={blackOk} className='w-6 h-6' />
-                                    <span>Free Email Service</span>
+                                    <span>Customer Support</span>
                                 </div>
                                 <div className='flex space-x-3 text-xs items-center'>
                                     <img src={blackOk} className='w-6 h-6' />
                                     <span>5 editing permissions of the data in portfolio </span>
                                 </div>
                             </div>
-                            <div className='text-xs text-justify'>* charges applies after 5 editing permissions are utilized. To avoid this, please verify the data before sending it to our team, Thank you!</div>
+                            <div className='text-xs text-justify'>* charges of Rs. 30/edit applies after 15 editing permissions are utilized.
+                            To avoid this, please verify the data before sending it to our team, Thank 
+                            you!</div>
                         </div>
                     </div>
 
@@ -67,7 +69,7 @@ const PricingSection = (props) => {
                                 <div className='w-7 h-7 p-2 border-black border-[0.5px] bg-white rounded-full'>
                                     <img src={favicon} />
                                 </div>
-                                <button className='px-4 py-1 rounded-full bg-white text-black font-medium text-xs'>STANDARD PLAN</button>
+                                <button className='px-4 py-1 rounded-full bg-white text-black font-medium text-xs'>PREMIUM PLAN</button>
                             </div>
                             <div className='space-y-3'>
                                 <p className='text-3xl font-bold tracking-tight leading-7'>PKR 125<span className='text-base font-light'>  /mo</span>
@@ -98,7 +100,9 @@ const PricingSection = (props) => {
                                     <span>15 editing permissions of the data in portfolio</span>
                                 </div>
                             </div>
-                            <div className='text-xs text-justify'>* charges applies after 15 editing permissions are utilized. To avoid this, please verify the data before sending it to our team, Thank you!</div>
+                            <div className='text-xs text-justify'>* charges of Rs. 30/edit applies after 15 editing permissions are utilized.
+                            To avoid this, please verify the data before sending it to our team, Thank 
+                            you!</div>
                         </div>
                     </div>
 
