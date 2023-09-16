@@ -10,7 +10,10 @@ module.exports = {
       fontFamily: {
         // sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
-    },
+        backgroundImage: {
+          'cosmos': "url('/src/images/templates/cosmos1.png')"
+        }
   },
   plugins: [],
+}
 }

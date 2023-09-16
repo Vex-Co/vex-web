@@ -17,9 +17,9 @@ function NavBar()
           <div className='max-lg:hidden visible'>
             <ul className='flex text-lg font-semibold space-x-10'> 
               <a href='#'><li>Home</li></a>
-              <a href='#'><li>About Us</li></a>
-              <a href='#'><li>Contact Us</li></a>
+              <a href='#'><li>Pricing Plans</li></a>
               <a href='#'><li>Templates</li></a>
+              <a href='#'><li>Contact Us</li></a>
             </ul>
           </div> 
           <div className='space-y-1 lg:hidden' onClick={toggle}>

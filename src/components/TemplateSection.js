@@ -1,7 +1,8 @@
 import React from "react"
-import template1 from '../images/pic/template card (1).png' 
-import template2 from '../images/pic/template card (2).png' 
-import template3 from '../images/pic/template card (3).png' 
+import cosmos1 from '../images/templates/cosmos1.png' 
+import simp1 from '../images/templates/simp1.jpg' 
+import attari1 from '../images/templates/attari1.jpg' 
+import MD1 from '../images/templates/MD1.jpg' 
 
 const TemplateSection = (props) => {
   return (
@@ -9,7 +10,7 @@ const TemplateSection = (props) => {
       <aside className='max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52'>
           <div className='flex justify-center'>
             <a href="https://wa.link/xwmj6i" target="_blank">
-            <button className='btn bg-black text-white px-10 font-medium blackHover'>Get a Custom Quote</button>
+            <button className='btnButton bg-black text-white px-10 font-medium blackHover'>Get a Custom Quote</button>
             </a>
           </div>
           
@@ -18,34 +19,63 @@ const TemplateSection = (props) => {
           </div>
 
           <div className='text-center max-sm:text-3xl text-5xl font-bold my-14'>Templates</div>
-          <div className='grid sm:space-y-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 justify-center'>
-            <div className='w-fit mt-5'>
-              <img src={template1} className='w-full'/>
-            </div>
-            <div className='w-fit'>
-              <img src={template2} className='w-full'/>
-            </div>
-            <div className='w-fit'>
-              <img src={template3} className='w-full'/>
-            </div>
+          <div className='grid sm:space-y-5 md:grid-cols-2 gap-5 justify-center'>
+            <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
 
-            <div className='w-fit mt-5'>
-              <img src={template1} className='w-full'/>
-            </div>
-            <div className='flex justify-center 2xl:col-span-2 '>
-              <div className='w-fit'>
-                <img src={template2} className='w-full'/>
+              <a href="#">
+              <div className="overlay rounded-2xl">
+                <p>Click To Preview</p>
               </div>
-            </div>
-            <div className='flex justify-center 2xl:col-span-2 '>
-              <div className='w-fit'>
-                <img src={template3} className='w-full'/>
+              </a>
+
+              <div>
+                <img src={cosmos1} className='w-full rounded-t-2xl'/>
               </div>
+              <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
             </div>
+            <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
+              
+            <a href="#">
+              <div className="overlay rounded-2xl">
+                <p>Click To Preview</p>
+              </div>
+              </a>
+              <div>
+                <img src={simp1} className='w-full rounded-t-2xl'/>
+              </div>
+              <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
+            </div>
+            <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
+              
+            <a href="#">
+              <div className="overlay rounded-2xl">
+                <p>Click To Preview</p>
+              </div>
+              </a>
+
+              <div>
+                <img src={attari1} className='w-full rounded-t-2xl'/>
+              </div>
+              <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
+            </div>
+            <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
+              
+            <a href="#">
+              <div className="overlay rounded-2xl">
+                <p>Click To Preview</p>
+              </div>
+              </a>
+              
+              <div>
+                <img src={MD1} className='w-full rounded-t-2xl'/>
+              </div>
+              <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
+            </div>
+            
           </div>
-
+          
           <div className='flex justify-center'>
-            <button className='btn bg-black text-white px-10 font-medium blackHover'>Show More</button>
+            <button className='btnButton bg-black text-white px-10 font-medium blackHover cursor-not-allowed'>More Comming Soon</button>
           </div>
         </aside>
     </div>

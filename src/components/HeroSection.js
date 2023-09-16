@@ -28,7 +28,7 @@ const HeroSection = (props) => {
                 <p className='max-sm:text-clip max-sm:text-md sm:text-md lg:text-xl font-extralight xl:w-[80%] 2xl:w-[70%] w-[90%] leading-relaxed break-words'>Create Your Stunning Portfolio with VEX. Easy Templates, Hassle-Free Hosting.Discover Beautiful Templates and Seamless Hosting to Make Your Portfolio Shine.</p>
               </div>
               <a href="https://wa.link/xwmj6i" target="_blank">
-                <button onMouseEnter={hoverIn} onMouseLeave={hoverOut} className='btn whiteHover'>
+                <button onMouseEnter={hoverIn} onMouseLeave={hoverOut} className='btnButton whiteHover'>
                   {
                     hoverData ?
                       <div className='flex sm:items-center'>

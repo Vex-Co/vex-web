@@ -53,7 +53,7 @@ const ContactUs = (props) => {
                 <div className='h-[2px] w-full bg-white mt-1 rounded-full'></div>
               </div>
               <div className='lg:flex lg:justify-center'>
-                <button onMouseEnter={hoverIn} onMouseLeave={hoverOut} className='btn py-3 w-full lg:py-5 lg:text-2xl lg:px-14 lg:w-fit whiteHover'>
+                <button onMouseEnter={hoverIn} onMouseLeave={hoverOut} className='btnButton py-3 w-full lg:py-5 lg:text-2xl lg:px-14 lg:w-fit whiteHover'>
                   
                   {
                     hoverData ?
