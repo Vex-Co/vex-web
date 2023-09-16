@@ -16,10 +16,10 @@ function NavBar()
           </div>  
           <div className='max-lg:hidden visible'>
             <ul className='flex text-lg font-semibold space-x-10'> 
-              <a href='#'><li>Home</li></a>
-              <a href='#'><li>Pricing Plans</li></a>
-              <a href='#'><li>Templates</li></a>
-              <a href='#'><li>Contact Us</li></a>
+              <a className='hover:underline hover:underline-offset-8'><li>Home</li></a>
+              <a href='#' className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
+              <a href='#' className='hover:underline hover:underline-offset-8'><li>Templates</li></a>
+              <a  href="#" className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
             </ul>
           </div> 
           <div className='space-y-1 lg:hidden' onClick={toggle}>
@@ -35,11 +35,11 @@ function NavBar()
             <ul className='bg-white max-sm:py-16 sm:py-20 w-full text-center text-lg font-semibold'>
               <a href='#'><li>Home</li></a>
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
-              <a href='#'><li>About Us</li></a>
-              <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
-              <a href='#'><li>Contact Us</li></a>
+              <a href='#'><li>Pricing Plans</li></a>
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
               <a href='#'><li>Templates</li></a>
+              <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
+              <a href='#'><li>Contact Us</li></a>
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
             </ul>
           </div>

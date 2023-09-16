@@ -31,9 +31,11 @@ const Footer = (props) => {
                 </div>
                 <div className='flex justify-center space-x-1'>
 
-                  <a href='https://wa.link/xwmj6i'><img className='w-10 lg:w-12 2xl:w-16' src={whiteWhatsApp}/></a>
-                  <img className='w-10 lg:w-12 2xl:w-16' src={whiteLinkedIn}/>
-                  <img className='w-10 lg:w-12 2xl:w-16' src={whiteInstagram}/>
+                  <a href='https://wa.link/xwmj6i' className="cursor-pointer"><img className='w-10 lg:w-12 2xl:w-16' src={whiteWhatsApp}/></a>
+
+                  <a className="cursor-not-allowed"><img className='w-10 lg:w-12 2xl:w-16' src={whiteLinkedIn}/></a>
+
+                  <a href="https://instagram.com/vex_co?igshid=OGQ5ZDc2ODk2ZA==" className="cursor-pointer"><img className='w-10 lg:w-12 2xl:w-16' src={whiteInstagram}/></a>
                 </div>
                 <div className='flex justify-center space-x-1'>
                   <img className='w-7 lg:w-9 2xl:w-12' src={whitePhone}/>
