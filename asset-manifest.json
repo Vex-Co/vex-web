@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f79b366.css",
-    "main.js": "/static/js/main.117e7613.js",
+    "main.css": "/static/css/main.41ba0ea2.css",
+    "main.js": "/static/js/main.921e4763.js",
+    "static/media/cosmos.png": "/static/media/cosmos.987dc071154ab11b553b.png",
+    "static/media/simp.jpg": "/static/media/simp.68e3c4db9d70021203da.jpg",
+    "static/media/MD.jpg": "/static/media/MD.8d3a1f6a25fa4f4ee49f.jpg",
     "static/media/3 guys photo.png": "/static/media/3 guys photo.7517b3f29c4f33836906.png",
+    "static/media/attari.jpg": "/static/media/attari.cbd5557dc915575a17d6.jpg",
     "static/media/cosmos1.png": "/static/media/cosmos1.4e5295624717fc32a2b9.png",
     "static/media/guyImage.png": "/static/media/guyImage.05c1b754773864daafa4.png",
     "static/media/thumb guy.png": "/static/media/thumb guy.c3ea6c055dda3a1067f2.png",
@@ -14,11 +18,11 @@
     "static/media/target image.png": "/static/media/target image.402a88edf31d1e84bea2.png",
     "static/media/attari1.jpg": "/static/media/attari1.faeeab1569b76021759e.jpg",
     "index.html": "/index.html",
-    "main.3f79b366.css.map": "/static/css/main.3f79b366.css.map",
-    "main.117e7613.js.map": "/static/js/main.117e7613.js.map"
+    "main.41ba0ea2.css.map": "/static/css/main.41ba0ea2.css.map",
+    "main.921e4763.js.map": "/static/js/main.921e4763.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f79b366.css",
-    "static/js/main.117e7613.js"
+    "static/css/main.41ba0ea2.css",
+    "static/js/main.921e4763.js"
   ]
 }
