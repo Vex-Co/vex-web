@@ -7,7 +7,7 @@ import whiteDiscount from '../images/pic/whiteDiscount.png'
 
 const PricingSection = (props) => {
     return (
-        <div>
+        <div id="pricing-section">
             <article className='mt-10 max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52'>
 
                 <div className='text-center max-sm:text-3xl text-5xl font-bold'>Pricing Plans</div>
@@ -53,7 +53,7 @@ const PricingSection = (props) => {
                                     <span>5 editing permissions of the data in portfolio </span>
                                 </div>
                             </div>
-                            <div className='text-xs text-justify'>* charges of Rs. 30/edit applies after 15 editing permissions are utilized.
+                            <div className='text-xs text-justify'>* charges of Rs. 30/edit applies after 5 editing permissions are utilized.
                             To avoid this, please verify the data before sending it to our team, Thank 
                             you!</div>
                         </div>
