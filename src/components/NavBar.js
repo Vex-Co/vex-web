@@ -16,10 +16,10 @@ function NavBar()
           </div>  
           <div className='max-lg:hidden visible'>
             <ul className='flex text-lg font-semibold space-x-10'> 
-              <a className='hover:underline hover:underline-offset-8'><li>Home</li></a>
-              <a href='#' className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
-              <a href='#' className='hover:underline hover:underline-offset-8'><li>Templates</li></a>
-              <a  href="#" className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
+              <a className='hover:underline hover:underline-offset-8' href='/'><li>Home</li></a>
+              <a href='/#pricing-section' className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
+              <a href='/#templates-section' className='hover:underline hover:underline-offset-8'><li>Templates</li></a>
+              <a  href="/#contact-section" className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
             </ul>
           </div> 
           <div className='space-y-1 lg:hidden' onClick={toggle}>
