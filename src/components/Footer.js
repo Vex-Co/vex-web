@@ -18,10 +18,10 @@ const Footer = (props) => {
                 <div>
                   <h1 className='lg:text-2xl 2xl:text-3xl'>NAVIGATION LINKS</h1>
                   <ul className='space-y-3 2xl:space-y-5 2xl:mt-8 mt-5'>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#">Browse Templates</a></li>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#">Pricing Plans</a></li>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#">About us</a></li>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#">Contact us</a></li>
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#templates-section">Browse Templates</a></li>
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#pricing-section">Pricing Plans</a></li>
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a className="cursor-not-allowed">About us</a></li>
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#contact-section">Contact us</a></li>
                   </ul>
                 </div>
               </div>
@@ -33,7 +33,7 @@ const Footer = (props) => {
 
                   <a href='https://wa.link/xwmj6i' className="cursor-pointer"><img className='w-10 lg:w-12 2xl:w-16' src={whiteWhatsApp}/></a>
 
-                  <a className="cursor-not-allowed"><img className='w-10 lg:w-12 2xl:w-16' src={whiteLinkedIn}/></a>
+                  <a href="https://www.linkedin.com/company/vex-co"><img className='w-10 lg:w-12 2xl:w-16' src={whiteLinkedIn}/></a>
 
                   <a href="https://instagram.com/vex_co?igshid=OGQ5ZDc2ODk2ZA==" className="cursor-pointer"><img className='w-10 lg:w-12 2xl:w-16' src={whiteInstagram}/></a>
                 </div>
@@ -54,10 +54,10 @@ const Footer = (props) => {
             <div>Copyright Ⓒ 2023  VEX - Versatile<br/>
             E-portfolio Experts</div>
             <div className='flex space-x-3'>
-              <a href='#'>
+              <a href='#' className="cursor-not-allowed">
                 <div className='underline underline-offset-2'>privacy policy</div>
               </a>
-              <a href='#'>
+              <a href='#' className="cursor-not-allowed">
                 <div className='underline underline-offset-2'>Terms and Conditions</div>
               </a>
             </div>
