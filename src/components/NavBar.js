@@ -1,5 +1,16 @@
 import whiteLogo from '../images/whiteLogo.png' 
 import React,{useState} from 'react'
+import ReactDOM from 'react-dom';
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+  else{
+    window.location.href = '/';
+  }
+}
 
 function NavBar()
 {
@@ -17,9 +28,9 @@ function NavBar()
           <div className='max-lg:hidden visible'>
             <ul className='flex text-lg font-semibold space-x-10'> 
               <a className='hover:underline hover:underline-offset-8' href='/'><li>Home</li></a>
-              <a href='/#pricing-section' className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
-              <a href='/#templates-section' className='hover:underline hover:underline-offset-8'><li>Templates</li></a>
-              <a  href="/#contact-section" className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
+              <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section');}} className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
+              <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('templates-section');}} className='hover:underline hover:underline-offset-8'><li>Templates</li></a>
+              <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}} className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
             </ul>
           </div> 
           <div className='space-y-1 lg:hidden' onClick={toggle}>
@@ -33,13 +44,16 @@ function NavBar()
           data?
           <div className='z-10 absolute w-full flex justify-center'>
             <ul className='bg-white max-sm:py-16 sm:py-20 w-full text-center text-lg font-semibold'>
-              <a href='#'><li>Home</li></a>
+              <a href='/'><li>Home</li></a>
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
-              <a href='#'><li>Pricing Plans</li></a>
+              <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section');}}
+              ><li>Pricing Plans</li></a>
+              
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
-              <a href='#'><li>Templates</li></a>
+              <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('templates-section');}}><li>Templates</li></a>
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
-              <a href='#'><li>Contact Us</li></a>
+              <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}}
+              ><li>Contact Us</li></a>
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
             </ul>
           </div>

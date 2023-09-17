@@ -4,7 +4,14 @@ import logoAbrev from '../images/logo with abbriviation.png'
 import whiteInstagram from '../images/pic/whiteInstagram.png' 
 import whiteWhatsApp from '../images/pic/WhatsApp.png' 
 import whiteLinkedIn from '../images/pic/LinkedIn.png' 
-import threeGuys from '../images/pic/3 guys photo.png' 
+import threeGuys from '../images/pic/3 guys photo.png'
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+} 
 
 
 const Footer = (props) => {
@@ -18,10 +25,15 @@ const Footer = (props) => {
                 <div>
                   <h1 className='lg:text-2xl 2xl:text-3xl'>NAVIGATION LINKS</h1>
                   <ul className='space-y-3 2xl:space-y-5 2xl:mt-8 mt-5'>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#templates-section">Browse Templates</a></li>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#pricing-section">Pricing Plans</a></li>
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a  href="#" onClick={(e) => { e.preventDefault(); scrollToSection('templates-section');}} >Browse Templates</a></li>
+
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a  href="#" onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section');}} >
+                    Pricing Plans</a></li>
+
                     <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a className="cursor-not-allowed">About us</a></li>
-                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#contact-section">Contact us</a></li>
+
+                    <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a  href="#" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}} >
+                      Contact us</a></li>
                   </ul>
                 </div>
               </div>

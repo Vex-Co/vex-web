@@ -1,5 +1,5 @@
 import React from "react"
-import attari from "H:\\Github\\vex-web\\src\\images\\templates\\attari.jpg"
+import attari from "../../images/templates/attari.jpg"
 
 const CosmosView = (props) => {
   return (

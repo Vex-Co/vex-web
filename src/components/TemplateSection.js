@@ -49,7 +49,7 @@ const TemplateSection = (props) => {
           <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
 
 
-            <Link to="/templates/cosmosView" target="_blank" className="cursor-pointer">
+            <Link to="/cosmosView" target="_blank" className="cursor-pointer">
               <div className="overlay rounded-2xl border-white border-2" onMouseEnter={() => setHoverLayer("1")} onMouseLeave={desetHoverLayer}>
                 {
                   temp1 ?
@@ -63,11 +63,11 @@ const TemplateSection = (props) => {
             <div>
               <img src={cosmos1} className='w-full rounded-t-2xl md:h-52 lg:h-60 xl:h-72 2xl:h-96' />
             </div>
-            <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
+            <p className="py-7 px-7 border-t-2 text-xl font-bold">Cosmos Template</p>
           </div>
           <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
 
-            <Link to="/templates/simpView" target="_blank" className="cursor-pointer">
+            <Link to="/simpView" target="_blank" className="cursor-pointer">
               <div className="overlay rounded-2xl border-white border-2" onMouseEnter={() => setHoverLayer("2")} onMouseLeave={desetHoverLayer}>
                 {
                   temp2 ?
@@ -84,7 +84,7 @@ const TemplateSection = (props) => {
           </div>
           <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
 
-            <Link to="/templates/attariView" target="_blank" className="cursor-pointer">
+            <Link to="/attariView" target="_blank" className="cursor-pointer">
               <div className="overlay rounded-2xl border-white border-2" onMouseEnter={() => setHoverLayer("3")} onMouseLeave={desetHoverLayer}>
                 {
                   temp3 ?
@@ -98,12 +98,12 @@ const TemplateSection = (props) => {
             <div>
               <img src={attari1} className='w-full rounded-t-2xl md:h-52 lg:h-60 xl:h-72 2xl:h-96' />
             </div>
-            <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
+            <p className="py-7 px-7 border-t-2 text-xl font-bold">Attari Template</p>
           </div>
           <div className='w-full border-black border-2 rounded-2xl mt-5 relative'>
 
 
-            <Link to="/templates/MDView" target="_blank" className="cursor-pointer">
+            <Link to="/MDView" target="_blank" className="cursor-pointer">
 
               <div className="overlay rounded-2xl border-white border-2" onMouseEnter={() => setHoverLayer("4")} onMouseLeave={desetHoverLayer}>
                 {
@@ -118,7 +118,7 @@ const TemplateSection = (props) => {
             <div>
               <img src={MD1} className='w-full rounded-t-2xl md:h-52 lg:h-60 xl:h-72 2xl:h-96'/>
             </div>
-            <p className="py-7 px-7 border-t-2 text-xl font-bold">Simp Template</p>
+            <p className="py-7 px-7 border-t-2 text-xl font-bold">MD Template</p>
           </div>
 
         </div>

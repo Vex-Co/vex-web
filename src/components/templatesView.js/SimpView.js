@@ -1,5 +1,5 @@
 import React from "react"
-import simp from "H:\\Github\\vex-web\\src\\images\\templates\\simp.jpg"
+import simp from "../../images/templates/simp.jpg"
 
 const CosmosView = (props) => {
   return (

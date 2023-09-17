@@ -1,5 +1,5 @@
 import React from "react"
-import MD from "H:\\Github\\vex-web\\src\\images\\templates\\MD.jpg"
+import MD from "../../images/templates/MD.jpg"
 
 const CosmosView = (props) => {
   return (

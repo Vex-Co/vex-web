@@ -1,5 +1,5 @@
 import React from "react"
-import cosmosPc from "H:\\Github\\vex-web\\src\\images\\templates\\cosmos.png"
+import cosmosPc from "../../images/templates/cosmos.png"
 
 const CosmosView = (props) => {
   return (
