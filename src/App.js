@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
 import AboutUs from './components/AboutUs'
@@ -22,10 +22,10 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path='/' element = {<Home/>}/>
-          <Route path='/templates/cosmosView' element = {<CosmosView/>}/>
-          <Route path='/templates/attariView' element = {<AttariView/>}/>
-          <Route path='/templates/MDView' element = {<MDView/>}/>
-          <Route path='/templates/simpView' element = {<SimpView/>}/>
+          <Route path='/cosmosView' element = {<CosmosView/>}/>
+          <Route path='/attariView' element = {<AttariView/>}/>
+          <Route path='/MDView' element = {<MDView/>}/>
+          <Route path='/simpView' element = {<SimpView/>}/>
         </Routes>
         <Footer/>
       </Router>
