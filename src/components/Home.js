@@ -9,7 +9,6 @@ const Home = (props) => {
     <div>
       <HeroSection/>
       <PricingSection/>
-      <TemplateSection/>
       <ContactUs/>
 
     </div>
