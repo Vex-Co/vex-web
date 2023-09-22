@@ -12,31 +12,57 @@ function scrollToSection(sectionId) {
   if (section) {
     section.scrollIntoView({ behavior: 'smooth' });
   }
-  else{
+  else {
     window.location.href = '/';
   }
 }
 
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth', // You can change this to 'auto' for instant scrolling
+  });
+}
+
+function scrollToTemp(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+    else {
+      window.location.href = '#/templates';
+      scrollToTop();
+    }
+}
+
+function scrollToAbout(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+  else {
+    window.location.href = '#/about';
+    scrollToTop();
+  }
+}
 
 const Footer = (props) => {
   return (
     <div>
-
-
       <div className='bg-black py-10 -mt-10 md:grid md:grid-cols-3'>
         <div className='flex text-white md:col-span-2'>
           <div className='flex justify-center w-1/2 pt-16 pb-5 sm:order-1'>
             <div>
-              <h1 className='lg:text-2xl 2xl:text-3xl'>NAVIGATION LINKS</h1>
+              <h1 className='lg:text-2xl 2xl:text-3xl' onClick={scrollToTop}>NAVIGATION LINKS</h1>
               <ul className='space-y-3 2xl:space-y-5 2xl:mt-8 mt-5'>
-                <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('templates-section'); }} >Browse Templates</a></li>
+                <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="#/templates" className="cursor-pointer" onClick={(e) => { e.preventDefault(); scrollToTemp('templates-section') }}>Browse Templates</a></li>
 
                 <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section'); }} >
                   Pricing Plans</a></li>
 
-                
-                  <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><Link to="/about" className="cursor-pointer">About us</Link></li>
-                
+
+                <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><Link to="/about" className="cursor-pointer" onClick={scrollToAbout}>About us</Link></li>
+
 
                 <li className='text-sm lg:text-lg 2xl:text-xl underline underline-offset-8'><a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section'); }} >
                   Contact us</a></li>
