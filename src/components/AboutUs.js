@@ -22,10 +22,10 @@ const AboutUs = (props) => {
             </div>
         </div>
       </section>
-      <section className="mb-20 max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52 mt-24 max-xmd:space-y-20 xmd:grid xmd:gap-10 xmd:grid-cols-2">
+      <section className="mb-20 max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52 mt-24 max-xmd:space-y-24 xmd:grid xmd:gap-10 xmd:grid-cols-2">
         <div className="border-2 border-black rounded-2xl flex flex-col">
-            <div className="h-80 flex justify-center border-black border-b-2 w-full -mt-20">
-              <img src={zafeer} className="h-[318px]"/>
+            <div className="h-80 flex justify-center items-end border-black border-b-2 w-full -mt-20">
+              <img src={zafeer} className="h-[318px] max-xsm:h-fit"/>
             </div>
             <div className="flex flex-col justify-between w-full h-full py-8 space-y-5 px-5">
               <div>
@@ -48,8 +48,8 @@ const AboutUs = (props) => {
             </div>
         </div>
         <div className="border-2 border-black rounded-2xl flex flex-col">
-            <div className="h-80 flex justify-center border-black border-b-2 w-full -mt-20">
-              <img src={zaheer} className="h-[318px]"/>
+            <div className="h-80 flex justify-center items-end border-black border-b-2 w-full -mt-20">
+              <img src={zaheer} className="h-[318px] max-[400px]:h-fit"/>
             </div>
             <div className="flex flex-col justify-between w-full h-full py-8 space-y-5 px-5">
               <div>
