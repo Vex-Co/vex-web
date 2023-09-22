@@ -1,8 +1,8 @@
 import React from "react"
-import favicon from '../images/favicon.png'  
-import whiteOk from '../images/pic/whiteOk.png' 
-import blackOk from '../images/pic/blackOk.png' 
-import blackDiscount from '../images/pic/discount.png' 
+import favicon from '../images/favicon.png'
+import whiteOk from '../images/pic/whiteOk.png'
+import blackOk from '../images/pic/blackOk.png'
+import blackDiscount from '../images/pic/discount.png'
 import whiteDiscount from '../images/pic/whiteDiscount.png'
 
 const PricingSection = (props) => {
@@ -54,8 +54,8 @@ const PricingSection = (props) => {
                                 </div>
                             </div>
                             <div className='text-xs text-justify'>* charges of Rs. 30/edit applies after 5 editing permissions are utilized.
-                            To avoid this, please verify the data before sending it to our team, Thank 
-                            you!</div>
+                                To avoid this, please verify the data before sending it to our team, Thank
+                                you!</div>
                         </div>
                     </div>
 
@@ -101,11 +101,22 @@ const PricingSection = (props) => {
                                 </div>
                             </div>
                             <div className='text-xs text-justify'>* charges of Rs. 30/edit applies after 15 editing permissions are utilized.
-                            To avoid this, please verify the data before sending it to our team, Thank 
-                            you!</div>
+                                To avoid this, please verify the data before sending it to our team, Thank
+                                you!</div>
                         </div>
                     </div>
 
+                </div>
+
+
+                <div className='flex justify-center'>
+                    <a href="https://wa.link/xwmj6i" target="_blank">
+                        <button className='btnButton bg-black text-white px-10 font-medium blackHover'>Get a Custom Quote</button>
+                    </a>
+                </div>
+
+                <div className='text-white flex justify-center w-full h-fit'>
+                    <div className=' bg-[#353535] w-3/4 h-1 mt-16 rounded-full'></div>
                 </div>
 
             </article>

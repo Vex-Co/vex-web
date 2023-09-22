@@ -33,16 +33,7 @@ const TemplateSection = (props) => {
 
   return (
     <div id="templates-section">
-      <aside className='max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52'>
-        <div className='flex justify-center'>
-          <a href="https://wa.link/xwmj6i" target="_blank">
-            <button className='btnButton bg-black text-white px-10 font-medium blackHover'>Get a Custom Quote</button>
-          </a>
-        </div>
-
-        <div className='text-white flex justify-center w-full h-fit'>
-          <div className=' bg-[#353535] w-3/4 h-1 mt-16 rounded-full'></div>
-        </div>
+      <aside className='mb-20 max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52'>
 
         <div className='text-center max-sm:text-3xl text-5xl font-bold my-14'>Templates</div>
         <div className='grid sm:space-y-5 md:grid-cols-2 gap-5 justify-center'>
