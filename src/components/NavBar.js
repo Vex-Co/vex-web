@@ -1,6 +1,7 @@
 import whiteLogo from '../images/whiteLogo.png' 
 import React,{useState} from 'react'
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
@@ -28,8 +29,13 @@ function NavBar()
           <div className='max-lg:hidden visible'>
             <ul className='flex text-lg font-semibold space-x-10'> 
               <a className='hover:underline hover:underline-offset-8' href='/'><li>Home</li></a>
+              
               <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section');}} className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
+              
               <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('templates-section');}} className='hover:underline hover:underline-offset-8'><li>Templates</li></a>
+              
+              <Link to="/about" className='hover:underline hover:underline-offset-8'><li>About Us</li></Link>
+
               <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}} className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
             </ul>
           </div> 

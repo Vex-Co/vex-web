@@ -26,6 +26,7 @@ function App() {
           <Route path='/attariView' element = {<AttariView/>}/>
           <Route path='/MDView' element = {<MDView/>}/>
           <Route path='/simpView' element = {<SimpView/>}/>
+          <Route path='/about' element = {<AboutUs/>}/>
         </Routes>
         <Footer/>
       </Router>
