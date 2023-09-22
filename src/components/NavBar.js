@@ -28,15 +28,15 @@ function NavBar()
           </div>  
           <div className='max-lg:hidden visible'>
             <ul className='flex text-lg font-semibold space-x-10'> 
-              <a className='hover:underline hover:underline-offset-8'><li>Home</li></a>
+              <a href="/" className='hover:underline hover:underline-offset-8 cursor-pointer'><li>Home</li></a>
               
-              <a onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section');}} className='hover:underline hover:underline-offset-8'><li>Pricing Plans</li></a>
+              <a onClick={(e) => { e.preventDefault(); scrollToSection('pricing-section');}} className='hover:underline hover:underline-offset-8 cursor-pointer'><li>Pricing Plans</li></a>
               
-              <Link to="/templates" className='hover:underline hover:underline-offset-8'><li>Templates</li></Link>
+              <Link to="/templates" className='hover:underline hover:underline-offset-8 cursor-pointer'><li>Templates</li></Link>
               
-              <Link to="/about" className='hover:underline hover:underline-offset-8'><li>About Us</li></Link>
+              <Link to="/about" className='hover:underline hover:underline-offset-8 cursor-pointer'><li>About Us</li></Link>
 
-              <a onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}} className='hover:underline hover:underline-offset-8'><li>Contact Us</li></a>
+              <a onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}} className='hover:underline hover:underline-offset-8 cursor-pointer'><li>Contact Us</li></a>
             </ul>
           </div> 
           <div className='space-y-1 lg:hidden' onClick={toggle}>
