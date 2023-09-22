@@ -57,6 +57,9 @@ function NavBar()
               
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
               <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('templates-section');}}><li>Templates</li></a>
+              
+              <Link to="/about" className='hover:underline hover:underline-offset-8'><li>About Us</li></Link>
+
               <div className='bg-black mx-auto w-4/5 h-[2px] my-3 rounded-full'></div>
               <a href="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section');}}
               ><li>Contact Us</li></a>
