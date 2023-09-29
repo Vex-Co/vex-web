@@ -3,6 +3,7 @@ import rightArrow from '../images/pic/rightArrow.png'
 import guyImage from '../images/pic/guyImage.png'
 import whiteArrow from '../images/pic/white Right Arrow.png'
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 
 const HeroSection = (props) => {
@@ -27,20 +28,21 @@ const HeroSection = (props) => {
 
                 <p className='max-sm:text-clip max-sm:text-md sm:text-md lg:text-xl font-extralight xl:w-[80%] 2xl:w-[70%] w-[90%] leading-relaxed break-words'>Create Your Stunning Portfolio with VEX. Easy Templates, Hassle-Free Hosting.Discover Beautiful Templates and Seamless Hosting to Make Your Portfolio Shine.</p>
               </div>
-              <a href="https://wa.link/xwmj6i" target="_blank">
+
+              <Link to="templates" target="_blank">
                 <button onMouseEnter={hoverIn} onMouseLeave={hoverOut} className='btnButton whiteHover'>
                   {
                     hoverData ?
                       <div className='flex sm:items-center'>
-                        Get Started <img src={whiteArrow} className='ml-3 max-sm:w-5 sm:w-9' />
+                        View Templates <img src={whiteArrow} className='ml-3 max-sm:w-5 sm:w-9' />
                       </div>
                       :
                       <div className='flex sm:items-center'>
-                        Get Started <img src={rightArrow} className='ml-3 max-sm:w-5 sm:w-9' />
+                        View Templates <img src={rightArrow} className='ml-3 max-sm:w-5 sm:w-9' />
                       </div>
                   }
                 </button>
-              </a>
+              </Link>
             </div>
             <div className='max-sm:hidden flex w-full items-center justify-center'>
               <img src={guyImage} className='sm:h-fit sm:pt-10 lg:w-[286px] 2xl:w-80' />
