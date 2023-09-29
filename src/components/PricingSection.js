@@ -25,9 +25,9 @@ const PricingSection = (props) => {
                                 <button className='px-4 py-1 rounded-full bg-gradient-to-r from-gray-950 to-gray-600 text-white font-medium text-xs'>STANDARD PLAN</button>
                             </div>
                             <div className='space-y-3'>
-                                <p className='text-3xl font-bold tracking-tight leading-7'>PKR 150<span className='text-base font-light'>  /mo</span>
+                                <p className='text-3xl font-bold tracking-tight leading-7'>PKR 170<span className='text-base font-light'>  /mo</span>
                                     <br />
-                                    <span className='line-through text-base font-light -pt-20'>PKR 300 /mo</span>
+                                    <span className='line-through text-base font-light -pt-20'>PKR 340 /mo</span>
                                 </p>
 
                                 <p className='text-sm text-justify my-2'>
@@ -72,9 +72,9 @@ const PricingSection = (props) => {
                                 <button className='px-4 py-1 rounded-full bg-white text-black font-medium text-xs'>PREMIUM PLAN</button>
                             </div>
                             <div className='space-y-3'>
-                                <p className='text-3xl font-bold tracking-tight leading-7'>PKR 125<span className='text-base font-light'>  /mo</span>
+                                <p className='text-3xl font-bold tracking-tight leading-7'>PKR 135<span className='text-base font-light'>  /mo</span>
                                     <br />
-                                    <span className='line-through text-base font-light -pt-20'>PKR 450 /mo</span>
+                                    <span className='line-through text-base font-light -pt-20'>PKR 485 /mo</span>
                                 </p>
 
                                 <p className='text-sm text-justify my-2'>
