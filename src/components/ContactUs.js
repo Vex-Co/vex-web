@@ -2,7 +2,7 @@ import React from "react"
 import Email from '../images/pic/Email.png'
 import whiteEnvelope from '../images/pic/whiteEnvelope.png'
 import Dom from '../images/pic/Dom.png'
-import threeD from '../images/pic/thumb guy.png'
+import thumbGuy from '../images/pic/thumb guy.png'
 import blackLeftCloud from '../images/pic/black left cloud.png'
 import blackRightCloud from '../images/pic/black right cloud_m_vertical.png'
 import { useState } from "react"
@@ -90,7 +90,7 @@ const ContactUs = (props) => {
               </div>
             </div>
             <div className='hidden md:visible md:-mt-10 md:flex md:justify-center'>
-              <img src={threeD} className='md:p-5 h-fit max-md:ml-20' />
+              <img src={thumbGuy} className='md:p-5 h-fit max-md:ml-20' />
             </div>
           </form>
         </div>
