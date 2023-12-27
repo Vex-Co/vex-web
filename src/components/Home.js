@@ -10,7 +10,6 @@ const Home = (props) => {
       <HeroSection/>
       <PricingSection/>
       <ContactUs/>
-
     </div>
   )
 };
