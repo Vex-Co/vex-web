@@ -96,7 +96,7 @@ const Footer = (props) => {
       <footer className='mt-10 h-20 max-sm:px-8 sm:px-16 lg:px-24 2xl:px-52'>
         <div className='max-sm:space-y-5 sm:space-y-0 sm:flex h-20 justify-between items-center'>
           <div>Copyright Ⓒ 2023  VEX - Versatile<br />
-            E-portfolio Experts</div>
+            E-services Experts</div>
           <div className='flex space-x-3'>
             <a href='#' className="cursor-not-allowed">
               <div className='underline underline-offset-2'>privacy policy</div>
